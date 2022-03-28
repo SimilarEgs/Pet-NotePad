@@ -11,6 +11,7 @@ func main() {
 	records := []string{}
 	scanner := bufio.NewScanner(os.Stdin)
 	Exit := 0
+	
 	for Exit == 0 {
 		fmt.Print("\nEnter a command and data: ")
 		scanner.Scan()
