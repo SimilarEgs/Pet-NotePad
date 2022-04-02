@@ -10,8 +10,8 @@ program comands:
 
 -clear //clear all notes
 
--update <note number> «new note»
+-update «note number» «new note»
   
--delete <note number> //delete a particular record from the list
+-delete «note number» //delete a particular record from the list
   
 -exit
