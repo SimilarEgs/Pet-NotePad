@@ -1,5 +1,3 @@
-# JB-Note-Pad
-
 In this project, I used the standard go library for creating a simple CLI notepad
 
 program comands:
