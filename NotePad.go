@@ -27,6 +27,7 @@ func main() {
 		}
 	}
 	fmt.Println()
+	fmt.Println("[Info] type «info» for the list of available commands\n")
 	for {
 		fmt.Printf("Enter command and data: ")
 		scanner.Scan()
@@ -49,6 +50,8 @@ func main() {
 		}
 
 		switch command {
+		case "info":
+			fmt.Println("\n[Info] commands list:\n1. create - creates note\n2. list - shows list of notes\n3. clear - clears the entire list of notes\n4. update - updates selected note\n5. delete - deletes selected note\n6. exit - terminate programm work")
 		case "create":
 			if len(notes) < notes_number && len(note) >= 1 {
 				notes = append(notes, note)
